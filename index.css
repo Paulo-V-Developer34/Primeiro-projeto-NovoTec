@@ -1,0 +1,143 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* body {
+    background-color: rgb(124, 124, 124);
+} */
+
+header {
+    background-color: rgb(37, 37, 37); /*eu substitui o background do UL pelo background aqui do header */
+    height: 80px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly; /*justify-content: space-between; */
+    list-style: none;
+    align-items: center; 
+    /* align-items: center; centraliza os itens na vertical */
+
+    /* gap: ;
+    align-items: ; */
+}
+
+li {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*as demais fontes só irão aparecer caso ocorra um erro */
+    color: aliceblue;
+    padding: 10px;
+    margin: rgb(37, 37, 37) solid 2px;
+    border-radius: 4px;
+}
+
+a {
+    color: white;
+}
+
+li :hover { 
+    background-color: rgb(146, 146, 146);
+}
+
+h1 {
+    font-size: 100px;
+    padding: 15px;
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+    /* margin-top: 50px; */
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(230, 230, 230);
+    /* border: solid rgb(68, 68, 68) 5px; */
+    justify-content: space-between; /*muda a orientação dos objetos na horizontal*/
+    padding: 30px;
+    margin-bottom: 50px;
+    margin: 32px;
+    gap: 15px;
+    border-radius: 15px; /*posso modificar cada canto separadamente*/
+    -webkit-box-shadow: 24px 15px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 24px 15px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 24px 15px 20px 0px rgba(0,0,0,0.75);
+}
+
+#sobreMin-texto, #contato-texto, #meusProjetos-texto {
+    width: 60%;
+    padding: 25px;
+}
+
+#sobreMin-conteudo, #contato-conteudo, #meusProjetos-conteudo {
+    display: flex;
+    gap:35px;
+}
+
+img {
+    border: solid black 5px;
+    border-radius: 10px;
+    width: 700px;
+}
+
+.tecnologias {
+    background-color: rgb(209, 209, 209);;
+    display: flex;
+}
+
+.link-menu {
+    text-decoration: none;
+    list-style: none;
+}
+
+/* CSS do professor*/
+
+.card-tec{
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;        interessante*/
+    -webkit-box-shadow: 11px 7px 43px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 11px 7px 43px -15px rgba(0,0,0,0.75);
+    box-shadow: 24px 15px 20px 0px rgba(0,0,0,0.75);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    gap: 10px;
+    background-color: #125527;
+}
+
+.img-tec{
+    width: 150px;
+    height: 150px;
+
+}
+
+#s2{
+    padding: 20px;
+    background-color: #32824b;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  
+}
+#tecnologias{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 70px;
+    
+}
+.cards{
+    display: flex;
+    gap: 40px;
+    justify-content:space-evenly;
+    width: 100%;
+}
